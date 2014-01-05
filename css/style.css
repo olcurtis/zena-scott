@@ -7,10 +7,8 @@ body {
     background-image: url(../img/nearing96dpi.jpg);
     background-repeat: no-repeat center center fixed;
     background-size: cover;
-    background-position: center left;
-    max-width: 100%;
-    height: 500px;
-    min-height: 500px;
+    background-position: center center;
+    min-height: 480px;
     margin-top: -40px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
