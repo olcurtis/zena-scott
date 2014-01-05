@@ -1,0 +1,114 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.intro {
+    background: url(file:///Users/verna/Desktop/site/img/nearing96dpi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute center;
+    min-height: 480px;
+    margin-top: -40px
+
+}
+
+.divider {
+    background: url(file:///Users/verna/Desktop/site/img/bookspline.jpg) center top no-repeat;
+    
+    background-position:absolute;
+    min-height: 60px
+
+}
+
+.intro-caption {
+    width: 100%;
+    opacity: .8;
+    z-index: 10;
+    float: left;
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 70px;
+    line-height: 45px;
+    margin-left: 90px
+}
+
+.intro-caption2 {
+    width: 100%;
+    opacity: .8;
+    z-index: 10;
+    float: left;
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    color: white;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 145px
+}
+
+.site-width {
+
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+    clear: left
+}
+
+.copy-width {
+    float: left;
+    width: 81.53333333333335%;
+    margin: 0 .8999999999999999%;
+    margin-left: 9.233333333333334%;
+    clear: left;
+    float: none
+}
+
+p {
+    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 39px;
+    font-weight: 500;
+    margin-bottom: 40px
+}
+
+.break {
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    color: #666666;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: center
+}
+
+.spacer {
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    font-size: 60px;
+    line-height: 39px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 40px;
+    text-align: center
+}
+
+.quote {
+    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+    color: #4c4c4c;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    width: 80%
+}
+
+.art-caption {
+    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+    color: #4c4c4c;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 100
+
+}
