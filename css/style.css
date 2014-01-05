@@ -4,7 +4,7 @@ body {
 }
 
 .intro {
-    background: url(zena-scott/img/nearing96dpi.jpg);
+    background: url(../img/nearing96dpi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: absolute center;
@@ -14,7 +14,7 @@ body {
 }
 
 .divider {
-    background: url(zena-scott/img/bookspline.jpg) center top no-repeat;
+    background: url(../img/bookspline.jpg) center top no-repeat;
     
     background-position:absolute;
     min-height: 60px
