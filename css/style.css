@@ -4,22 +4,23 @@ body {
 }
 
 .intro {
-    background-image: url('../img/nearing96dpi.jpg');
-
+    background-image: url(../img/nearing96dpi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: absolute center;
-    min-height: 480px;
-    margin-top: -40px
-
+    background-position: center left;
+    max-width: 100%;
+    height: 500px;
+    min-height: 500px;
+    margin-top: -40px;
+    display: block
 }
 
 .divider {
     background: url('../img/bookspline.jpg') center top no-repeat;
-    
     background-position:absolute;
-    min-height: 60px
-
+    min-height: 80px;
+    margin-top: -21px;
+    margin-bottom: 20px;
 }
 
 .intro-caption {
@@ -48,7 +49,6 @@ body {
 }
 
 .site-width {
-
     max-width: 960px;
     width: 90%;
     margin: 0 auto;
@@ -69,7 +69,8 @@ p {
     font-size: 26px;
     line-height: 39px;
     font-weight: 500;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    display: block
 }
 
 .break {
@@ -84,9 +85,6 @@ p {
 }
 
 .spacer {
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    font-size: 60px;
-    line-height: 39px;
     font-weight: 700;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -113,3 +111,18 @@ p {
     font-weight: 100
 
 }
+@media (min-width: 960px) {
+  .container {
+    max-width: 920px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 960px) {
+  /* Remove the padding we set earlier */
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+   .header {
+    margin-bottom: 30px;
+  }
+}   
