@@ -4,7 +4,8 @@ body {
 }
 
 .intro {
-    background: url('../img/nearing96dpi.jpg');
+    background-image: url('../img/nearing96dpi.jpg');
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: absolute center;
