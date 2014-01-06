@@ -180,7 +180,24 @@ p {
     width: 100%;
     float: left;
     margin: 5%;
+    clear: left;
+    float: none
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media print {
       /* style sheet for print goes here */
@@ -200,7 +217,8 @@ p. {
  .break {
     font-size: 20px;
     line-height: 26px;
-    text-align: center
+    text-align: center;
+    margin-bottom: 5px
 }  
   .quote {
     font-size: 14px;
