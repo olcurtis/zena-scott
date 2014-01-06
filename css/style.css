@@ -150,5 +150,13 @@ footer {
    p {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
+    line-height: 31px;
     }
+.quote {
+    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 27px;
+}
+
 } 
