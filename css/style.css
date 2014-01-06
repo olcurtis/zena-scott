@@ -150,7 +150,8 @@ footer {
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
-    }
+    margin: 0
+ }
 
  .break {
     font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
@@ -159,7 +160,6 @@ footer {
     line-height: 36px;
     font-weight: 700;
     text-align: center
-    margin: 5px
 }   
 
   .quote {
