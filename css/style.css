@@ -156,9 +156,10 @@ footer {
     font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
     color: #666666;
     font-size: 30px;
-    line-height: 27px;
+    line-height: 36px;
     font-weight: 700;
     text-align: center
+    margin: 5px
 }   
 
   .quote {
