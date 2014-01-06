@@ -146,29 +146,36 @@ footer {
 }
 
 @media only screen and (max-device-width: 480px) {
-   p {
+p {
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
  }
 
- .break {
+.break {
     font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
     color: #666666;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
     text-align: center;
-    margin: -5px
+    margin: 5px
 }   
 
-  .quote {
+.quote {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
     font-size: 16px;
     line-height: 20px;
     margin-left: 20px;
     margin-top: 5px;
 }
+
+.site-width {
+    width: 90%;
+    margin: 0 auto;
+    clear: left
+}
+
 .copy-width {
     width: 100%;
     float: left;
@@ -183,7 +190,7 @@ body {
     margin: .0.5cm;
 }
 
-  p. {
+p. {
     font-family:times,serif;
     font-size:12px;  
     line-height: 18px;
