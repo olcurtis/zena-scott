@@ -1,53 +1,68 @@
 body {
   min-height: 2000px;
+  display: block;
   padding-top: 70px;
 }
 
-.intro {
-    background-image: url(../img/nearing96dpi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
-    min-height: 500px;
+img {max-width: 100%;}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar {
+    background-color: #d6d4d0;
+}
+
+.section.top {
+    margin: 0;
     margin-top: -40px;
-    margin-left: 0;
-    margin-right: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.section.top img{
+    display: block;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 40px
+}
+
+.section.top .container {
+    width: none;
+    max-width: none;
+    position: absolute;
+    top: 0;
+    width: 70%;
+    max-height: 480px;
+    z-index: 1;
+    float: left;
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #a8a59c;
+    font-size: 7.5vw;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
+    opacity: .7
 }
 
 .divider {
-    background: url('../img/bookspline.jpg') center top no-repeat;
+    background: url(../img/bookspline.jpg) center top no-repeat;
     background-position:absolute;
     min-height: 80px;
+    display: compact;
     margin-top: -21px;
     margin-bottom: 20px;
-}
-
-.intro-caption {
-    width: 100%;
-    opacity: .8;
-    z-index: 10;
-    float: left;
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    color: white;
-    font-size: 40px;
-    margin-top: 70px;
-    line-height: 45px;
-    margin-left: 90px
-}
-
-.intro-caption2 {
-    width: 100%;
-    opacity: .8;
-    z-index: 10;
-    float: left;
-    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
-    color: white;
-    font-size: 40px;
-    margin-top: -50px;
-    margin-left: 145px
 }
 
 .site-width {
@@ -71,10 +86,28 @@ p {
     font-size: 26px;
     line-height: 39px;
     font-weight: 500;
-    margin-bottom: 40px;
-    display: block
+    margin-bottom: 40px
 }
 
+h1 {
+    display:block;
+    font-family:"Arial", Times, serif;
+}
+
+
+h2 {
+    font-family: "ff-meta-serif-web-pro", Arial, "Times New Roman", serif;
+    font-size: 9.9vw;
+    line-height: 70px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    opacity: .8;
+    -webkit-font-smoothing: antialiased
+}
+
+h2 {
+  font-size: 3.0vh;
+}
 .break {
     font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
     color: #666666;
@@ -83,14 +116,6 @@ p {
     font-weight: 700;
     margin-top: 55px;
     margin-bottom: 55px;
-    text-align: center
-}
-
-.spacer {
-    font-weight: 700;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    height: 40px;
     text-align: center
 }
 
@@ -107,11 +132,17 @@ p {
 
 .art-caption {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
     color: #4c4c4c;
-    font-size: 18px;
+    font-size: 1.9vw;
     line-height: 33px;
     font-weight: 100
 
+}
+
+footer {
+    background-color: #d6d4d0;
+    padding: 15px
 }
 
 @media (min-width: 960px) {
