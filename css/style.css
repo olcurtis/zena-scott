@@ -2,6 +2,7 @@ body {
   min-height: 2000px;
   display: block;
   padding-top: 70px;
+
 }
 
 img {max-width: 100%;}
@@ -188,7 +189,6 @@ p {
     clear: left;
     float: none
 }
-
 
 @media print {
       /* style sheet for print goes here */
