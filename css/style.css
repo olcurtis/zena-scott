@@ -36,6 +36,19 @@ img {max-width: 100%;}
     margin-bottom: 40px
 }
 
+.divider img{
+    display: block;
+    height: auto;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    margin-bottom: 5%;
+    margin-top: 5%
+}
+
 .section.top .container {
     width: none;
     max-width: none;
@@ -54,15 +67,6 @@ img {max-width: 100%;}
     line-height: 1;
     text-align: left;
     opacity: .7
-}
-
-.divider {
-    background: url(../img/bookspline.jpg) center top no-repeat;
-    background-position:absolute;
-    min-height: 80px;
-    display: compact;
-    margin-top: -21px;
-    margin-bottom: 20px;
 }
 
 .site-width {
@@ -159,6 +163,7 @@ p {
     line-height: 36px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 12px;
     margin: 5px
 }   
 
@@ -185,20 +190,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media print {
       /* style sheet for print goes here */
 body {
@@ -219,15 +210,17 @@ p. {
     font-size: 20px;
     line-height: 26px;
     text-align: center;
-    margin-bottom: 12px
 }  
-  .quote {
+
+.quote {
     font-size: 14px;
     margin-left: 20px;
 } 
-    img {
+
+img {
     width: 640;
 }
+
 .site-width {
     width: 100%;
     margin: .0.5cm;
