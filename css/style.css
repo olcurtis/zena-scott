@@ -168,6 +168,12 @@ footer {
     line-height: 20px;
     margin-left: 20px;
 }
+.copy-width {
+    float: left;
+    width: 81.53333333333335%;
+    margin: 0;
+}
+
 @media print {
       /* style sheet for print goes here */
 body {
