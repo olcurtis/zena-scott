@@ -122,8 +122,8 @@ h2 {
 .quote {
     font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
     color: #4c4c4c;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 31px;
     font-weight: 100;
     margin-bottom: 30px;
     margin-left: 60px;
@@ -145,18 +145,59 @@ footer {
     padding: 15px
 }
 
-
 @media only screen and (max-device-width: 480px) {
    p {
-    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
-    line-height: 31px;
+    line-height: 24px;
     }
-.quote {
-    font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-    color: #4c4c4c;
+
+ .break {
+    font-family: "ff-meta-serif-web-pro", Arial, Times, "Times New Roman", serif;
+    color: #666666;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center
+}   
+
+  .quote {
     font-size: 16px;
-    line-height: 27px;
+    line-height: 20px;
+}
+@media print {
+      /* style sheet for print goes here */
+body {
+    width: 100%;
+    height: 100%;
+    margin: .0.5cm;
+}
+
+
+  p. {
+    font-family:times,serif;
+    font-size:12px;  
+    line-height: 18px;
+}
+ .break {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center
+}  
+  .quote {
+    font-size: 14px;
+} 
+    img {
+    width: 640;
+}
+.site-width {
+    width: 100%;
+    margin: .0.5cm;
+}
+
+.copy-width {
+    float: left;
+    width: 80%;
+    margin: .0.5cm;
 }
 
 } 
